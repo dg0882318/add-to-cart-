@@ -93,7 +93,7 @@ function updateTotal() {
 
     document.querySelector(".total-price").textContent = "Rs " + total;
 }
-// update cart item count 
+// update cart item cont
 function updateCartCount() {
     var cartBoxes = document.querySelectorAll(".cart-box");
     document.querySelector(".cart-item-count").textContent = cartBoxes.length;

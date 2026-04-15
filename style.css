@@ -11,7 +11,7 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
+/* hEADER */
 header {
     position: fixed;
     background-color: darkgray;
@@ -107,7 +107,7 @@ header {
     cursor: pointer;
 }
 
-/* Cart Styling */
+/* Cart Style */
 .cart {
     position: fixed;
     top: 0;
