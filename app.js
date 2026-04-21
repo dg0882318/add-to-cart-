@@ -2,6 +2,8 @@ var cartIcon = document.querySelector("#cart-icon");
 var cart = document.querySelector(".cart");
 var cartClose = document.querySelector("#cart-close");
 
+// add remove cart 
+
 cartIcon.addEventListener("click", () => cart.classList.add("active"));
 cartClose.addEventListener("click", () => cart.classList.remove("active"));
 
@@ -14,7 +16,7 @@ addCartButtons.forEach(button => {
         addToCart(productBox);
     });
 });
-
+// add to cart function 
 function addToCart(productBox) {
     var productImgSrc = productBox.querySelector("img").src;
     var productTitle = productBox.querySelector(".product-title").textContent;

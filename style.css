@@ -107,7 +107,7 @@ header {
     cursor: pointer;
 }
 
-/* Cart */
+/* Cart in which img and detail are out going  */
 .cart {
     position: fixed;
     top: 0;
@@ -214,7 +214,7 @@ header {
     cursor: pointer;
 }
 
-/* Overlay */
+/* Overlay the product */
 .overlay {
     position: fixed;
     top: 0;
@@ -232,7 +232,7 @@ header {
     visibility: visible;
 }
 
-/* Responsive  */
+/* Responsive  mobile screen and tablet screen also  */
 @media (max-width: 1200px) {
     .product-content {
         grid-template-columns: repeat(3, 1fr);
