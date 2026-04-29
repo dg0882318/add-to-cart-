@@ -22,7 +22,7 @@ function addToCart(productBox) {
     var productTitle = productBox.querySelector(".product-title").textContent;
     var productPrice = productBox.querySelector(".price").textContent;
 
-    // Prevent duplicate query 
+    // Prevent duplicate q 
     var cartItems = document.querySelectorAll(".cart-product-title");
     for (var item of cartItems) {
         if (item.textContent === productTitle) {
@@ -80,7 +80,7 @@ function decreaseQty(event) {
     }
     updateTotal();
 }
-// update total price and cart item
+// update total price and cart 
 function updateTotal() {
     var cartBoxes = document.querySelectorAll(".cart-box");
     var total = 0;
