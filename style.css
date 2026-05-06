@@ -11,7 +11,7 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* hEADER */
+/* hEADER .....*/
 header {
     position: fixed;
     background-color: darkgray;
@@ -26,7 +26,7 @@ header {
     width: 100%;
 }
 
-/* Cart ic */
+/* Cart icon..... */
 #cart-icon {
     position: relative;
     font-size: 30px;
@@ -48,7 +48,7 @@ header {
     visibility: hidden;
 }
 
-/* Shop Sec */
+/* Shop Section ..... */
 .shop {
     padding: 100px 9% 30px;
 }
@@ -58,7 +58,7 @@ header {
     margin-bottom: 30px;
 }
 
-/* Product Grid */
+/* Product Griddo ...... */
 .product-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -107,7 +107,7 @@ header {
     cursor: pointer;
 }
 
-/* Cart in img  */
+/* Cart in img ....... */
 .cart {
     position: fixed;
     top: 0;
@@ -214,7 +214,7 @@ header {
     cursor: pointer;
 }
 
-/* Overlay the product */
+/* Overlay the product ..... */
 .overlay {
     position: fixed;
     top: 0;
@@ -232,7 +232,7 @@ header {
     visibility: visible;
 }
 
-/* Responsive  */
+/* Responsive  ......*/
 @media (max-width: 1200px) {
     .product-content {
         grid-template-columns: repeat(3, 1fr);

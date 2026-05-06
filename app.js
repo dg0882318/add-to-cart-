@@ -80,7 +80,7 @@ function decreaseQty(event) {
     }
     updateTotal();
 }
-// update total price and cart 
+// update total price and cart...... 
 function updateTotal() {
     var cartBoxes = document.querySelectorAll(".cart-box");
     var total = 0;
@@ -95,7 +95,7 @@ function updateTotal() {
 
     document.querySelector(".total-price").textContent = "Rs " + total;
 }
-// update cart item cont
+// update cart item cont........
 function updateCartCount() {
     var cartBoxes = document.querySelectorAll(".cart-box");
     document.querySelector(".cart-item-count").textContent = cartBoxes.length;
