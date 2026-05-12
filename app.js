@@ -121,4 +121,4 @@ function buyNow() {
 
 
 
-//   javascript of add to card is complete but  javascript is different among them 
+//   javascript of add to card is complete but  javascript is different
